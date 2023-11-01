@@ -9,5 +9,5 @@ block content
         div(class="col-sm-2" onclick=`buy(${index})`) #{House.house_name}, #{House.house_size}, #{House.house_price} $
       script.
         function buy(a) {
-          alert(`Enjoy the stay ${Houses[a].house_name} House!`)
+          alert(`You purchased House ${a+1}`)
         }
